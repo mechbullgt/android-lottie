@@ -1,0 +1,8 @@
+https://hackernoon.com/react-native-how-to-setup-your-first-app-a36c450a8a2f
+https://www.npmjs.com/package/lottie-react-native
+
+https://github.com/Clarifai/clarifai-javascript/issues/14
+https://www.lottiefiles.com/
+
+https://stackoverflow.com/questions/44446523/unable-to-load-script-from-assets-index-android-bundle-on-windows
+https://medium.com/react-native-training/lottie-react-native-tutorial-162d91840720
