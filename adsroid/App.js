@@ -23,7 +23,8 @@ export default class App extends Component<Props> {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>Welcome to Lottie Animations :-)</Text>
+        <Text style={styles.welcome}>Lottie Animations on react-native is like</Text>
+        <Text style={styles.wow}>WOW</Text>
         <View>
           <Animation
             ref={animation => {
@@ -34,7 +35,7 @@ export default class App extends Component<Props> {
               height: 150
             }}
             loop={true}
-            source="soda_loader.json"
+            source="wow.json"
           />
         </View>
 
@@ -48,12 +49,19 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#A6207E'
+    backgroundColor: 'black'
   },
   welcome: {
     fontSize: 20,
     textAlign: 'center',
     margin: 10,
     color: '#ffffff'
+  },
+  wow:{
+    fontSize: 30,
+    textAlign: 'center',
+    margin: 10,
+    color:'#ffffff',
+    fontFamily:'monospace'
   }
 });
